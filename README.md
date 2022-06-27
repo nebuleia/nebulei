@@ -1,5 +1,5 @@
 
-![Logo](<img src="nebulei-logo.svg" alt="nebulei-logo">)
+![Logo](<img src="https://raw.githubusercontent.com/PipInstallAI/nebulei/main/nebulei-logo.svg" alt="nebulei-logo">)
 
 
 # Nebulei
