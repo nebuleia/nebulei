@@ -37,6 +37,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     'core',
+    'users',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -100,8 +101,12 @@ WSGI_APPLICATION = 'nebulei.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd5tv39rcn6jti',
+        'USER': 'ikspfoyoqnwgol',
+        'PASSWORD': '9dcfb363bd2ad985916404feb6187c1c1c58ed771797766a391879c738bc34dc',
+        'HOST': 'ec2-3-230-122-20.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -146,12 +151,22 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 
     'apps/core/static',
     ),
+    os.path.join(BASE_DIR, 
+    'apps/users/static',
+    ),
 )
 
 
 MEDIA_URL = '/media/'
+MEDIA_PATH = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+LOGIN_REDIRECT_URL = '/home'
+
+LOGOUT_REDIRECT_URL = '/login'
