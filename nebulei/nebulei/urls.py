@@ -11,6 +11,7 @@ urlpatterns = [
 
 core_urls = [
     path('', include('core.urls')),
+    path('', include('users.urls')),
 ]
 
 third_part_urls = [
@@ -20,3 +21,6 @@ third_part_urls = [
 
 urlpatterns += core_urls + third_part_urls
 
+
+urlpatterns = urlpatterns+static(settings.MEDIA_URL,
+document_root=settings.MEDIA_ROOT)
