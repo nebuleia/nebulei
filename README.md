@@ -1,5 +1,3 @@
-
-
 # Nebulei
 
 A Social-Network for intellectuals to engage/debate large topics about Science,
