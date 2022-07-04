@@ -1,4 +1,27 @@
-<img src="https://raw.githubusercontent.com/PipInstallAI/nebulei/9e763e333e97d15de32c5ccf634b696b642c50b1/assets/nebulei-logo.png" width="200"height="200">
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Nebuleia/nebulei">
+    <img src="assets/nebulei-logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Nebulei</h3>
+
+  <p align="center">
+    Collaboration, Creation, Discovery is what we are about
+    <br />
+    <a href="https://github.com/Nebuleia/nebulei/fork"><strong>Contribute »</strong></a>
+
+</div>
+
+<br />
+<br />
 
 # Nebulei
 
