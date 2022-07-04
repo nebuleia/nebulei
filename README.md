@@ -1,4 +1,4 @@
-![Logo](<img src="https://raw.githubusercontent.com/PipInstallAI/nebulei/9e763e333e97d15de32c5ccf634b696b642c50b1/assets/nebulei-logo.png" width="200"height="200">)
+<img src="https://raw.githubusercontent.com/PipInstallAI/nebulei/9e763e333e97d15de32c5ccf634b696b642c50b1/assets/nebulei-logo.png" width="200"height="200">
 
 # Nebulei
 
