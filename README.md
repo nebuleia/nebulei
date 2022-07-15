@@ -42,7 +42,7 @@ Nebulei has adopted a Code of Conduct that we expect project participants to adh
 
 ### Contributing guide
 
-Read our [contributing guide](https://github.com/nebuleia/nebulei/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Nebulei.
+Read our [contributing guide](https://github.com/PipInstallAI/nebulei/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Nebulei.
 
 ### Beginner-friendly bugs
 
