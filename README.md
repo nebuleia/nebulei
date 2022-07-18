@@ -21,6 +21,7 @@
   <a href="#"><img src="https://img.shields.io/github/issues/nebuleia/nebulei" alt="" /></a>
   <a href="#"><img src="https://img.shields.io/github/forks/nebuleia/nebulei" alt="" /></a>
   <a href="#"><img src="https://img.shields.io/github/stars/nebuleia/nebulei" alt="" /></a>
+  <a href="#"><img src="https://img.shields.io/github/contributors/nebuleia/nebulei" alt="" /></a>
 </p>
 
 # Nebulei
