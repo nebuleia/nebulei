@@ -2,8 +2,12 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000",
   "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-scripts": "0.9.5",
     "styled-components": "^5.3.5",
