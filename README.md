@@ -35,7 +35,7 @@ as we believe there is a lack of shared work among intellectuals of the world.
 
 ## Contributing
 
-We are creating Nebulei because we want to scale humanities knowledge in all different subjects by letting intellectuals have the oppurtunity to collaborate. We hope that humans no matter what occupation can help progress this project in letting people with a certain skillset have a voice in implementing new features. We are thankful for any contributions from the community. 
+We are creating Nebulei because we want to scale humanities knowledge in all different subjects by letting intellectuals have the opportunity to collaborate. We hope that humans no matter what occupation can help progress this project in letting people with a certain skillset have a voice in implementing new features. We are thankful for any contributions from the community. 
 
 ### Code of Conduct
 
