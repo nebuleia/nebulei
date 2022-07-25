@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Raleway:ital,wght@1,700&display=swap');
 
+* {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition:    all .3s ease-in-out;
+    -o-transition:      all .3s ease-in-out;
+    -ms-transition:     all .3s ease-in-out;
+    transition:         all .3s ease-in-out;
+}
 
 .main-font {
     font-family: 'Inter', sans-serif;
