@@ -10,7 +10,7 @@ class Index extends Component {
     return (
     <>
       <Navbar />
-        <Main />
+      <Main />
       <Footer />
     </>
     )
