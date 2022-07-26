@@ -26,16 +26,16 @@
 
 # Nebulei
 
-Nebulei is a  Social-Network for intellectuals to engage/debate large topics about Science,
-Technology, Philosophy and Engineering while making large progress of creation, 
-discovery, invention, and most importantly; allowing collaboration to take place 
+Nebulei is a  Social-Network for intellectuals to share their work or opinion on subjects like **`Science`**,
+**`Technology`**, **`Philosophy`**, **`Engineering`**, and **`History`**, ect. Meanwhile making large progress in `creation`, 
+`discovery`, `invention`, and most importantly; allowing `collaboration` to take place 
 as we believe there is a lack of shared work among intellectuals of the world.
 
 > **We are working hard on Nebulei's first version. If you are new to Nebulei, try experimenting on new features with us.**
 
 ## Contributing
 
-We are creating Nebulei because we want to scale humanities knowledge in all different subjects by letting intellectuals have the opportunity to collaborate. We hope that humans no matter what occupation can help progress this project in letting people with a certain skillset have a voice in implementing new features. We are thankful for any contributions from the community. 
+We are creating Nebulei because we want to scale humanities knowledge in all different subjects by letting intellectuals have the opportunity to collaborate. We hope that you beautiful humans can help in implementing new features. We are thankful for any contributions from the community. 
 
 ### Code of Conduct
 
@@ -48,3 +48,4 @@ Read our [contributing guide](https://github.com/PipInstallAI/nebulei/blob/main/
 ### Beginner-friendly bugs
 
 To help you get your feet wet and get you familiar with our contribution process, we have a list of [beginner-friendly bugs](https://github.com/nebuleia/nebulei/labels/good%20first%20issue) that might contain smaller issues to tackle first. This is a great place to get started.
+
