@@ -23,41 +23,24 @@ function Nav() {
                 </a>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex space-x-4 items-end">
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#9163CB] hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-100"
-                  >
-                    Dashboard
-                  </a>
+                <div className="ml-10 space-x-4 flex items-center">
+                  <div className='flex'>
+                    <a
+                      href="#"
+                      className="text-black no-underline hover:underline px-3 py-2 rounded-md text-sm font-medium duration-100"
+                    >
+                      Login
+                    </a>
+                  </div>
 
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#9163CB] hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-100"
-                  >
-                    Team
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#9163CB] hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-100"
-                  >
-                    Projects
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#9163CB] hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-100"
-                  >
-                    Calendar
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-black hover:bg-[#9163CB] hover:text-white px-3 py-2 rounded-md text-sm font-medium duration-100"
-                  >
-                    Reports
-                  </a>
+                  <div className='flex'>
+                    <a
+                      href="#"
+                      className="text-white bg-gradient-to-br from-purple-400 to-purple-700 px-3 py-2 rounded-md text-sm font-medium duration-100"
+                    >
+                      Register
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -65,7 +48,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-[#9163CB] inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-[#7251B5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-white duration-100"
+                className="bg-purple-700 inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-white duration-100"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -119,40 +102,19 @@ function Nav() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
                 <a
                   href="#"
-                  className="text-gray-500 hover:bg-[#7B2CBF] hover:text-white block px-3 py-2 rounded-md text-base font-medium duration-100"
+                  className="text-black no-underline hover:underline block px-3 py-2 rounded-md text-base font-medium duration-100"
                 >
-                  Dashboard
+                  Login
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-500 hover:bg-[#7B2CBF] hover:text-white block px-3 py-2 rounded-md text-base font-medium duration-100"
+                  className="text-white bg-gradient-to-br from-purple-400 to-purple-700 block px-3 py-2 rounded-md text-base font-medium duration-100"
                 >
-                  Team
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-500 hover:bg-[#7B2CBF] hover:text-white block px-3 py-2 rounded-md text-base font-medium duration-100"
-                >
-                  Projects
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-500 hover:bg-[#7B2CBF] hover:text-white block px-3 py-2 rounded-md text-base font-medium duration-100"
-                >
-                  Calendar
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-500 hover:bg-[#7B2CBF] hover:text-white block px-3 py-2 rounded-md text-base font-medium duration-100"
-                >
-                  Reports
+                  Register
                 </a>
               </div>
             </div>
